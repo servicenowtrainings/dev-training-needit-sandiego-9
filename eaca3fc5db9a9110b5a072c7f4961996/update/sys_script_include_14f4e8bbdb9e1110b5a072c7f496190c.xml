@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_906175_hello_wor.  GetEmailAddress</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Script Include to return an email address. The calling client-side script passes a sys_id for a User table record.</description>
+        <name>  GetEmailAddress</name>
+        <script><![CDATA[var GetEmailAddress = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+  // Define the getEmail function.  
+  // Create a GlideRecord for the User table.
+  // Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+  // Return the email address for the requested record
+  getEmail: function() {
+    var userRecord = new GlideRecord("sys_user");
+    userRecord.get(this.getParameter('sysparm_userID'));
+    return userRecord.email + '';
+  },
+  type: 'GetEmailAddress'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-09 06:34:54</sys_created_on>
+        <sys_id>14f4e8bbdb9e1110b5a072c7f496190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>  GetEmailAddress</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_update_name>sys_script_include_14f4e8bbdb9e1110b5a072c7f496190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-09 06:34:54</sys_updated_on>
+    </sys_script_include>
+</record_update>

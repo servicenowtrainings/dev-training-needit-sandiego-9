@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_906175_hello_wor. NeedItUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Utils Script Include for the NeedIt application.</description>
+        <name> NeedItUtils</name>
+        <script><![CDATA[var  NeedItUtils = Class.create();
+ NeedItUtils.prototype = {
+    initialize: function() {
+    },
+isDatePast: function(strDate){
+    // Create GlideDateTime objects for the current date and the passed in date
+    var rightnow = new GlideDateTime();
+    var testdate = new GlideDateTime(strDate);
+	var isToday = niutils.isDateToday(current.u_when_needed);
+    
+    // If the testdate is before rightnow, return true, else return false
+    if (testdate.before(rightnow)) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  
+  // if the isDateToday method returns true the When needed date is today 
+  if(isToday == true){
+    gs.addErrorMessage("You cannot submit NeedIt requests for today.");
+    current.setAbortAction(true);
+  }	
+  },
+    type: ' NeedItUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-09 06:45:16</sys_created_on>
+        <sys_id>cb4764bfdb9e1110b5a072c7f4961932</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name> NeedItUtils</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_update_name>sys_script_include_cb4764bfdb9e1110b5a072c7f4961932</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-09 06:51:22</sys_updated_on>
+    </sys_script_include>
+</record_update>
