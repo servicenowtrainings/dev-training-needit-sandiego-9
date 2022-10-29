@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -65,7 +65,7 @@ callFunc.getNum();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>93b9b0efdb521110b5a072c7f49619c9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name> NeedIt Debugging Practice</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
@@ -73,7 +73,7 @@ callFunc.getNum();]]></script>
         <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
         <sys_update_name>sys_script_93b9b0efdb521110b5a072c7f49619c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-08 13:27:51</sys_updated_on>
+        <sys_updated_on>2022-10-29 06:18:36</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

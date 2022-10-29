@@ -6,7 +6,7 @@
         <description/>
         <field>state</field>
         <global>false</global>
-        <isolate_script>true</isolate_script>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>NeedIt onChange Example</name>
         <order/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0dc7d797db521110b5a072c7f4961922</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>NeedIt onChange Example</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
         <sys_update_name>sys_script_client_0dc7d797db521110b5a072c7f4961922</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-08 06:27:46</sys_updated_on>
+        <sys_updated_on>2022-10-29 06:04:17</sys_updated_on>
         <table>incident</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
