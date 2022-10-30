@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="My Custom Table">2e54a451db92d110b5a072c7f496199c</application>
+        <filter/>
+        <name>My Custom Tables</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_906175_hello_wor.my_custom_table_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-01 12:06:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea54a451db92d110b5a072c7f496199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Custom Tables</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_update_name>sys_ui_module_ea54a451db92d110b5a072c7f496199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-01 12:06:44</sys_updated_on>
+        <table>x_906175_hello_wor_my_custom_table</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</application>
+        <file_path/>
+        <instance_id>7388d576db861f0c0e785d00cf96196f</instance_id>
+        <instance_name>dev59468</instance_name>
+        <name>sys_ui_module_ea54a451db92d110b5a072c7f496199e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="My Custom Table">2e54a451db92d110b5a072c7f496199c</application>
+        <filter/>
+        <name>My Custom Tables</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_906175_hello_wor.my_custom_table_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-01 12:06:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea54a451db92d110b5a072c7f496199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Custom Tables</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_update_name>sys_ui_module_ea54a451db92d110b5a072c7f496199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-01 12:06:44</sys_updated_on>
+        <table>x_906175_hello_wor_my_custom_table</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>]]></payload>
+        <payload_hash>1838057380</payload_hash>
+        <record_name>My Custom Tables</record_name>
+        <reverted_from/>
+        <source>34eadb82db725110b5a072c7f496192d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 05:51:26</sys_created_on>
+        <sys_id>5efa93c2db725110b5a072c7f4961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184224b8a5e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-29 05:51:26</sys_updated_on>
+        <type>Module</type>
+        <update_guid>9afa93c2fb725110ec170cb30fe03216</update_guid>
+        <update_guid_history>9afa93c2fb725110ec170cb30fe03216:0,120a5b42ff7251106aee07b2abc2a1c0:1081590869,c2f9574213725110c400d6a67331a857:0,59c9df02a6725110bcefcbcffd96f078:0,9b495fce9032511042aa332899e3935c:1081590869,2b391bce99325110825f73dda9deb7c1:0,5d62f2f5d132111069454da382af00a6:0,b991be75193211101f1e2aecee1a4337:1081590869,2a81ba75df321110802ae2372e3339c1:0,a1a4963ba7aa1110da2d8cdf7d678264:0,16739eb719aa1110bb0d99e4219b8ec7:1081590869,4073dab767aa111085fd98850b7df6cb:0,fb1909737a525110cc8dd4619859b8c8:0,dfe88d330e52511044f221fd7c6691e5:1081590869,9de80d33ab525110efd44f89ee78ee63:0,a1c57cabf452111085ecce9257c7d574:0,1d8570abde52111033a0000455196dc1:1081590869,9f75fc6b9152111077da1b325249693e:0,7ef4746b645211102c5d96861610b227:0,9ab4b82bce521110d35e93db83832eae:1081590869,48b4382b885211105e877fc56bcf6965:0,23561f17a15211100397e5aac895a27d:0,7326d317265211107d34b7cc98526740:1081590869,96265317fe5211109e07f2fbc394e76c:0,dbc51bd3a8521110588659aa8759cf29:0,f9f8c79712121110aef00de6022a9bc3:1081590869,58f84797131211107d1e82f538d905bd:0,ae54a4517192d1104f06e31d93ba459f:255962624</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 10:14:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0d3304ea84004991b42f01c73de0fcb9</sys_id>
+        <sys_metadata>ea54a451db92d110b5a072c7f496199e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Custom Tables</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_scope_delete display_value="">38971e4548224c6aa5d254efe8cd1571</sys_scope_delete>
+        <sys_update_name>sys_ui_module_ea54a451db92d110b5a072c7f496199e</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_ea54a451db92d110b5a072c7f496199e">5efa93c2db725110b5a072c7f4961916</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 10:14:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="NeedIt Task " max_length="40" name="x_906175_hello_wor_needit_task" sizeclass="2" type="collection">
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="500" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Due Date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element choice="3" default="4" label="Priority" max_length="40" name="priority" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1-Critical" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2-High" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3-Moderate" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4-Low" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5-Planning" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="160" name="short_description" type="string"/>
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Work In Progress" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="Due date" max_length="40" name="u_due_date_2" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="500" name="work_notes" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

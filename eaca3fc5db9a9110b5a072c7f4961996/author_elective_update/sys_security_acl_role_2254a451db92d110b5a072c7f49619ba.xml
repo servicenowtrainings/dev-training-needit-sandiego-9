@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-01 12:06:44</sys_created_on>
+        <sys_id>2254a451db92d110b5a072c7f49619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_906175_hello_wor_my_custom_table.x_906175_hello_wor.my_custom_table_user</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_security_acl display_value="x_906175_hello_wor_my_custom_table">2a54a451db92d110b5a072c7f49619b7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2254a451db92d110b5a072c7f49619ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-01 12:06:44</sys_updated_on>
+        <sys_user_role display_value="x_906175_hello_wor.my_custom_table_user" name="x_906175_hello_wor.my_custom_table_user">ae54ac5ddb52d110b5a072c7f496198e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</application>
+        <file_path/>
+        <instance_id>7388d576db861f0c0e785d00cf96196f</instance_id>
+        <instance_name>dev59468</instance_name>
+        <name>sys_security_acl_role_2254a451db92d110b5a072c7f49619ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-01 12:06:44</sys_created_on>
+        <sys_id>2254a451db92d110b5a072c7f49619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_906175_hello_wor_my_custom_table.x_906175_hello_wor.my_custom_table_user</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_security_acl display_value="x_906175_hello_wor_my_custom_table">2a54a451db92d110b5a072c7f49619b7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2254a451db92d110b5a072c7f49619ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-01 12:06:44</sys_updated_on>
+        <sys_user_role display_value="x_906175_hello_wor.my_custom_table_user" name="x_906175_hello_wor.my_custom_table_user">ae54ac5ddb52d110b5a072c7f496198e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>1441477992</payload_hash>
+        <record_name>x_906175_hello_wor_my_custom_table.x_906175_hello_wor.my_custom_table_user</record_name>
+        <reverted_from/>
+        <source>34eadb82db725110b5a072c7f496192d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 05:51:24</sys_created_on>
+        <sys_id>f5fa53c2db725110b5a072c7f4961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184224b82430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-29 05:51:24</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>35fa53c2e07251107586f757229ba374</update_guid>
+        <update_guid_history>35fa53c2e07251107586f757229ba374:0,450a1b428a7251106cfab2198c28464e:61288494,78c99f02c77251108f51d5eb504cdce0:0,5649dbce9c32511007d04a1c2ce71af2:61288494,e862b2f534321110c7b9f76eb28d54f7:0,f0913e7592321110b4fceed6de077fed:61288494,15a4963bbeaa111019ed69e8e6fc7101:0,6d735eb7e8aa1110cf367a658b3c7081:61288494,53190973925251107fb0d515d5192851:0,49e8c933d85251103cc2670667d8fcf8:1022877692,05c57cab62521110858e9fe880937a0a:0,048530ab62521110a7c7b07aa5a1ea90:61288494,12f4346bdf5211109527a96fc019599b:0,a1b4782b3e521110e408d24a8743d2ea:61288494,4b561f1754521110dfef39b56f50c612:0,4f26931722521110ff5778db25302816:61288494,07c5d7d3e9521110f38d431fb7b435da:0,9df887976a1211104b964c12564a42f7:61288494,ea54a4512892d110d520d4a0b3688bbb:-1586228240</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_906175_hello_wor_my_custom_table.x_906175_hello_wor.my_custom_table_user">6bc0a162dbf69110b5a072c7f49619e0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 10:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>4f8721fbff4243b298ae2808b0e05cc1</sys_id>
+        <sys_metadata>2254a451db92d110b5a072c7f49619ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_906175_hello_wor_my_custom_table.x_906175_hello_wor.my_custom_table_user</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_parent display_value="">2a54a451db92d110b5a072c7f49619b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_scope_delete display_value="">38971e4548224c6aa5d254efe8cd1571</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_2254a451db92d110b5a072c7f49619ba</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_2254a451db92d110b5a072c7f49619ba">f5fa53c2db725110b5a072c7f4961974</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 10:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

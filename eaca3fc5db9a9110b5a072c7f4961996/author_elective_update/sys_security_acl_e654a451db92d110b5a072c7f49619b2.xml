@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_906175_hello_wor_my_custom_table</description>
+        <name>x_906175_hello_wor_my_custom_table</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-01 12:06:44</sys_created_on>
+        <sys_id>e654a451db92d110b5a072c7f49619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_906175_hello_wor_my_custom_table</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_update_name>sys_security_acl_e654a451db92d110b5a072c7f49619b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-01 12:06:44</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</application>
+        <file_path/>
+        <instance_id>7388d576db861f0c0e785d00cf96196f</instance_id>
+        <instance_name>dev59468</instance_name>
+        <name>sys_security_acl_e654a451db92d110b5a072c7f49619b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_906175_hello_wor_my_custom_table</description>
+        <name>x_906175_hello_wor_my_custom_table</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-01 12:06:44</sys_created_on>
+        <sys_id>e654a451db92d110b5a072c7f49619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_906175_hello_wor_my_custom_table</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_update_name>sys_security_acl_e654a451db92d110b5a072c7f49619b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-01 12:06:44</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>581846306</payload_hash>
+        <record_name>x_906175_hello_wor_my_custom_table</record_name>
+        <reverted_from/>
+        <source>34eadb82db725110b5a072c7f496192d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 05:51:24</sys_created_on>
+        <sys_id>31fa53c2db725110b5a072c7f4961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184224b817f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-29 05:51:24</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>7dfa53c229725110f64ef0f3c0320067</update_guid>
+        <update_guid_history>7dfa53c229725110f64ef0f3c0320067:0,941adb4277725110b1f7db0c900e3c65:835234336,a0c99f024772511091d9e032fde413d4:0,41599fce26325110dea28493917999d1:835234336,2462b2f52a321110aa629bb7a90d33eb:0,df91fe75ba32111010b6fe16167cc555:835234336,d9a4563ba9aa1110bba82926939b5ddb:0,388352f7e0aa11100d60cd87ba4db053:835234336,97190973ea52511012be2d94f3bc7f44:0,93e88d33185251108eb7e6c64e44d9e2:835234336,45c53cabe9521110e068d16d9fd309fd:0,778534abc5521110837c3c5c4fa135a7:835234336,52f4346b62521110055845772cd5898e:0,28c47c2bad5211104e870e78c18d655e:835234336,c356db175052111076b78d7db3f2a5f9:0,0f3697176652111072a3ef0dbba26452:835234336,76c5d7d30a5211103ad2b9bd5d6162cd:0,5c098b978a1211106d1f83034d7d470b:835234336,6254a4514a92d110a1011d86da03b2b4:-656918252</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 10:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>45e6c3b153bf47c095e4f0139486b204</sys_id>
+        <sys_metadata>e654a451db92d110b5a072c7f49619b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_906175_hello_wor_my_custom_table</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_parent display_value="">e9ea1f82db725110b5a072c7f496196b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_scope_delete display_value="">38971e4548224c6aa5d254efe8cd1571</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e654a451db92d110b5a072c7f49619b2</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e654a451db92d110b5a072c7f49619b2">31fa53c2db725110b5a072c7f4961968</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 10:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
