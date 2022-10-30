@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>CountOverdueNeedItTasksAssignedTo</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	// Construct a GlideRecord query to find all NeedIt Task records with Due date
+  // field values in the past for the same Assigned to.  The records cannot be in the
+  // Closed state.
+  var rightNow = new GlideDateTime();
+  
+  var overdueNITasks = new GlideRecord('x_58872_needit_needit_task');
+  overdueNITasks.addQuery('due_date','<=',rightNow);
+  overdueNITasks.addQuery('state','<',3);
+  overdueNITasks.addQuery('assigned_to',current.assigned_to);
+  
+  overdueNITasks.query();
+  
+  // Print to the Message field on a notification 
+  template.print("In addition to this overdue NeedIt Task, you have " + (overdueNITasks.getRowCount() - 1) + " more overdue NeedIt Tasks.");
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 07:42:06</sys_created_on>
+        <sys_id>ed243f0edbb25110b5a072c7f49619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CountOverdueNeedItTasksAssignedTo</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_update_name>sys_script_email_ed243f0edbb25110b5a072c7f49619ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-29 07:42:06</sys_updated_on>
+    </sys_script_email>
+</record_update>
