@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="My Custom Table">ae54a451db92d110b5a072c7f4961997</application>
+        <application display_value=" NeedIt">52456491db92d110b5a072c7f4961940</application>
         <assessment/>
         <device_type/>
         <filter/>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
-        <mobile_title>My Custom Tables</mobile_title>
+        <mobile_title>Properties</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_906175_hello_wor_my_custom_table</name>
-        <order/>
+        <name/>
+        <order>900</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>system_properties_ui.do?sysparm_title=NeedIt Application Properties&amp;sysparm_category=NeedIt Properties</query>
         <report/>
-        <roles>x_906175_hello_wor.my_custom_table_user</roles>
+        <roles>x_906175_hello_wor._needit_user,admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-10-01 12:06:43</sys_created_on>
+        <sys_created_on>2022-10-30 09:50:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>6654a451db92d110b5a072c7f496199a</sys_id>
+        <sys_id>2adad1eadbb69110b5a072c7f49619a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>My Custom Tables</sys_name>
+        <sys_name>Properties</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
-        <sys_update_name>sys_app_module_6654a451db92d110b5a072c7f496199a</sys_update_name>
+        <sys_update_name>sys_app_module_2adad1eadbb69110b5a072c7f49619a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-01 12:06:43</sys_updated_on>
+        <sys_updated_on>2022-10-30 09:50:35</sys_updated_on>
         <timeline_page/>
-        <title>My Custom Tables</title>
+        <title>Properties</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="My Custom Table">ae54a451db92d110b5a072c7f4961997</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My Custom Tables</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_906175_hello_wor_my_custom_table</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_906175_hello_wor.my_custom_table_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-01 12:06:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6654a451db92d110b5a072c7f496199a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_update_name>sys_app_module_6654a451db92d110b5a072c7f496199a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 10:11:47</sys_updated_on>
+        <timeline_page/>
+        <title>NeedIt Tasks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</application>
+        <file_path/>
+        <instance_id>7388d576db861f0c0e785d00cf96196f</instance_id>
+        <instance_name>dev59468</instance_name>
+        <name>sys_app_module_6654a451db92d110b5a072c7f496199a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="My Custom Table">ae54a451db92d110b5a072c7f4961997</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>My Custom Tables</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_906175_hello_wor_my_custom_table</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_906175_hello_wor.my_custom_table_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-01 12:06:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6654a451db92d110b5a072c7f496199a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>NeedIt Tasks</sys_name><sys_overrides/><sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package><sys_policy/><sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope><sys_update_name>sys_app_module_6654a451db92d110b5a072c7f496199a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-30 10:11:47</sys_updated_on><timeline_page/><title>NeedIt Tasks</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2091110216</payload_hash>
+        <record_name>NeedIt Tasks</record_name>
+        <reverted_from/>
+        <source>8dcdcc95db12d110b5a072c7f4961997</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 10:11:47</sys_created_on>
+        <sys_id>e1202922dbf69110b5a072c7f4961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184286040150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 10:11:47</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2d2029229df6911090921c2713dd4b50</update_guid>
+        <update_guid_history>2d2029229df6911090921c2713dd4b50:2091110216,c8fadf821472511055a940486dc2829d:0,22f9574204725110535bd1d9eb4669de:174884801,66b91f02a9725110df66456b0cd47728:0,cc495bce763251100025aefe76bc8774:174884801,7352b2f599321110ad6975a8fd883f1c:0,c781fa750e321110102f27bed766055f:174884801,f8a4563b8eaa1110f3adeab799a9812e:0,ac731eb76baa111020137e7f8752a607:174884801,3219c5733752511023ea317fe06b2864:0,a1e80d33bc525110b4ead9e3d8cf6ebe:174884801,acc53cab635211107b913d231af7d084:0,6375fc6b105211106470b90bc4dc2275:174884801,91f4f06b31521110d9633b1005e895b2:0,a0b4782bbf521110f9bac665d3f1200d:174884801,3e56db1719521110c5f5580dad33c8ac:0,2626531744521110ef8412b46db21db0:174884801,6ac5d7d3c6521110c95e6ecf8c9c8c73:0,2cf84797be12111019f1a37790c254f4:174884801,6e54a451ba92d110221fed9655c02c9b:-450416858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt Tasks">bbc0a162dbf69110b5a072c7f49619f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 10:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1159186f57ff41c985dcd29741fc6589</sys_id>
+        <sys_metadata>6654a451db92d110b5a072c7f496199a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Tasks</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_scope_delete display_value="">38971e4548224c6aa5d254efe8cd1571</sys_scope_delete>
+        <sys_update_name>sys_app_module_6654a451db92d110b5a072c7f496199a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_6654a451db92d110b5a072c7f496199a">e1202922dbf69110b5a072c7f4961951</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 10:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
