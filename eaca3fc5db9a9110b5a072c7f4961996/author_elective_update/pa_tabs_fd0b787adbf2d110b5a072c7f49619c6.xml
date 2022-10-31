@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="DELETE">
+        <canvas_page/>
+        <name>NeedIt Application - New Tab 2</name>
+        <page/>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 02:08:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd0b787adbf2d110b5a072c7f49619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Application - New Tab 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_update_name>pa_tabs_fd0b787adbf2d110b5a072c7f49619c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 02:08:04</sys_updated_on>
+    </pa_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</application>
+        <file_path/>
+        <instance_id>7388d576db861f0c0e785d00cf96196f</instance_id>
+        <instance_name>dev59468</instance_name>
+        <name>pa_tabs_fd0b787adbf2d110b5a072c7f49619c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs"><pa_tabs action="INSERT_OR_UPDATE"><canvas_page/><name>NeedIt Application - New Tab 2</name><page/><sys_class_name>pa_tabs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-31 02:08:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fd0b787adbf2d110b5a072c7f49619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt Application - New Tab 2</sys_name><sys_overrides/><sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package><sys_policy/><sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope><sys_update_name>pa_tabs_fd0b787adbf2d110b5a072c7f49619c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-31 02:08:04</sys_updated_on></pa_tabs></record_update>]]></payload>
+        <payload_hash>409422220</payload_hash>
+        <record_name>NeedIt Application - New Tab 2</record_name>
+        <reverted_from/>
+        <source>8dcdcc95db12d110b5a072c7f4961997</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 02:08:10</sys_created_on>
+        <sys_id>530bbc7adbf2d110b5a072c7f4961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1842bcbda670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 02:08:10</sys_updated_on>
+        <type>Tab</type>
+        <update_guid>310b787abbf2d110d7fb25f3c3c7adc8</update_guid>
+        <update_guid_history>310b787abbf2d110d7fb25f3c3c7adc8:787574031,310b787abbf2d110d7fb25f3c3c7adc8:787574031,310b787abbf2d110d7fb25f3c3c7adc8:787574031</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt Application - New Tab 2">1f0bbc7adbf2d110b5a072c7f4961949</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 02:08:10</sys_created_on>
+        <sys_db_object display_value="" name="pa_tabs">pa_tabs</sys_db_object>
+        <sys_id>2c45064950044dddafa840eb2f16da31</sys_id>
+        <sys_metadata>fd0b787adbf2d110b5a072c7f49619c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Application - New Tab 2</sys_name>
+        <sys_package display_value="Hello World" source="x_906175_hello_wor">eaca3fc5db9a9110b5a072c7f4961996</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hello World">eaca3fc5db9a9110b5a072c7f4961996</sys_scope>
+        <sys_scope_delete display_value="">38971e4548224c6aa5d254efe8cd1571</sys_scope_delete>
+        <sys_update_name>pa_tabs_fd0b787adbf2d110b5a072c7f49619c6</sys_update_name>
+        <sys_update_version display_value="pa_tabs_fd0b787adbf2d110b5a072c7f49619c6">530bbc7adbf2d110b5a072c7f4961944</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 02:08:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
